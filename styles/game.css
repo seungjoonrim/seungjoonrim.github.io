@@ -1,0 +1,84 @@
+/** {
+  border: 2px solid black;
+}*/
+
+.row h1 {
+	font-family: 'Lobster', cursive;
+	font-size: 40pt;
+}
+
+#navigation, main {
+	color: black;
+	font-family: 'Playfair Display', serif;
+}
+
+main {
+	padding-top: 50px;
+	height: 600px;
+}
+
+nav p {
+	display: inline;
+	margin-right: 10px;
+}
+
+#currentPage {
+	text-decoration: underline;
+}
+
+a:visited {
+	color: black;
+}
+
+header {
+	padding: 20px 0;
+}
+
+header .row {
+	display: flex;
+	align-items: center;
+}
+
+header h1 {
+	margin: 0;
+}
+
+.lastResult {
+	width: 25%;
+	margin: 10px auto;
+}
+
+.lowOrHigh {
+	display: block;
+}
+
+footer p {
+	display: block;
+	width: 24%;
+	margin: auto;
+	text-align: center;
+	font-family: 'Playfair Display', serif;
+}
+
+footer {
+	text-align: center;
+}
+
+main h1, #instructions {
+	text-align: center;
+}
+
+#instructions {
+	width: 40%;
+	display: block;
+	margin: auto;
+	padding: 20px;
+}
+
+.form {
+	text-align: center;
+}
+
+.resultParas {
+	text-align: center;
+}

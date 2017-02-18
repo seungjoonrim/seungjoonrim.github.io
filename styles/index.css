@@ -1,0 +1,74 @@
+/** {
+	border: 2px solid black;
+}*/
+
+img {
+	width: 50%;
+	margin: auto;
+
+}
+
+main .jumbotron {
+	background-color: white;
+	display: inline-flex;
+	justify-content: center;
+	}
+
+.row h1 {
+	font-family: 'Lobster', cursive;
+	font-size: 40pt;
+}
+
+#navigation, main {
+	color: black;
+	font-family: 'Playfair Display', serif;
+}
+
+a:visited {
+	color: black;
+}
+
+#currentPage {
+	text-decoration: underline;
+}
+
+nav p {
+	display: inline;
+	margin-right: 10px;
+}
+
+header {
+	padding: 20px 0;
+}
+
+header .row {
+	display: flex;
+	align-items: center;
+}
+
+header h1 {
+	margin: 0;
+}
+
+#about-me {
+	width: 30%;
+	padding-top: 50px ;
+	font-family: 'EB Garamond', serif;
+	font-size: 20px;
+}
+
+#profile {
+	display: block;
+}
+
+footer p {
+	display: block;
+	width: 24%;
+	margin: auto;
+	text-align: center;
+	font-family: 'Playfair Display', serif;
+}
+
+footer {
+	text-align: center;
+}

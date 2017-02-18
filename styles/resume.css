@@ -1,0 +1,71 @@
+/** {
+	border: 2px solid black;
+}*/
+
+body .jumbotron {
+	background-color: white;
+}
+
+main h1 {
+	text-align: center;
+	font-family: 'Playfair Display', serif;
+}
+
+.resume {
+	text-align: center;
+}
+
+iframe {
+	width: 65%;
+	height: 1200px;
+}
+
+.row h1 {
+	font-family: 'Lobster', cursive;
+	font-size: 40pt;
+}
+
+#navigation {
+	color: black;
+	font-family: 'Playfair Display', serif;
+}
+
+a:visited {
+	color: black;
+}
+
+nav p {
+	display: inline;
+	margin-right: 10px;
+}
+
+#currentPage {
+	text-decoration: underline;
+}
+
+header {
+	padding: 20px 0;
+}
+
+header .row {
+	display: flex;
+	align-items: center;
+}
+
+header h1 {
+	margin: 0;
+}
+
+footer p {
+	display: block;
+	width: 24%;
+	margin: auto;
+	text-align: center;
+	font-family: 'Playfair Display', serif;
+}
+
+footer {
+	text-align: center;
+	padding-bottom: 50px;
+}
+

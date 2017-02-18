@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="utf-8">
+	<meta name="author" content="Seung-Joon Rim">
+	<meta name="description" content="Seung-Joon Rim's online resume.">
+	<link rel="stylesheet" href="styles/game.css">
+	<link href="https://fonts.googleapis.com/css?family=EB+Garamond|Lobster|Playfair+Display" rel="stylesheet">
+	<link rel="shortcut icon" href="4457007993_e80fa730c2_o.ico" type="image/x-icon">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<title>Home: Seung-Joon Rim</title>
+</head>
+<body>
+	<header class="container">
+		<div class="row">
+			<h1 class="col-sm-8">Seung-Joon Emmanuel Rim</h1>
+			<nav id="navigation" class="col-sm-4">
+				<p><a href='index.html'>Home</a></p>
+				<p><a href="photos.html">Photos</a></p>
+				<p id='currentPage'>Game</p>
+				<p><a href="resume.html">Resume</a></p>
+			</nav>
+		</div>	
+	</header>
+
+	<main>
+		<h1>Number Guessing Game</h1>
+
+		<p id="instructions">I have chosen a random number between (and including)
+		1 and 100. Try and guess my number in 10 tries or less. I will tell you if
+		your guess is too high or too low. Good luck!</p>
+
+		<div class="form">
+			<label for="guessField">Enter a guess: </label>
+			<input type="text" id="guessField" class="guessField">
+			<input type="submit" value="Submit guess" class="guessSubmit">
+		</div>
+
+		<div class="resultParas">
+			<p class="guesses"></p>
+			<p class="lastResult"></p>
+			<p class="lowOrHi"></p>
+		</div>
+	</main>
+
+	<footer class="container">
+		<div class='row'>
+			<p><b>CONTACT:</b></p>
+			<p class='contact'>email: <a href='mailto:seungr7@vt.edu'>Seungr7@vt.edu</a></p>
+			<p class='contact'>phone: (267)-401-9777</p>
+		</div>
+	</footer>
+
+	<script src='scripts/game.js'></script>
+</body>
+</html>

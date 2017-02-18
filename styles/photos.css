@@ -1,0 +1,59 @@
+/** {
+	border: 2px solid black;
+}
+*/
+img {
+	display: block;
+	width: 50%;
+	margin: auto;
+}
+
+.row h1 {
+	font-family: 'Lobster', cursive;
+	font-size: 40pt;
+}
+
+
+#navigation {
+	color: black;
+	font-family: 'Playfair Display', serif;
+}
+
+nav p {
+	display: inline;
+	margin-right: 10px;
+}
+
+#currentPage {
+	text-decoration: underline;
+}
+
+a:visited {
+	color: black;
+}
+
+header {
+	padding: 20px 0;
+}
+
+header .row {
+	display: flex;
+	align-items: center;
+}
+
+header h1 {
+	margin: 0;
+}
+
+footer p {
+	display: block;
+	width: 24%;
+	margin: auto;
+	text-align: center;
+	font-family: 'Playfair Display', serif;
+}
+
+footer {
+	margin: 50px;
+	text-align: center;
+}
