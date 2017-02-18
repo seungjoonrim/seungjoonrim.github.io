@@ -32,6 +32,10 @@ a:visited {
 	color: black;
 }
 
+#navigation a {
+	color: black;
+}
+
 header {
 	padding: 20px 0;
 }

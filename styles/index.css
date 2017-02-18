@@ -28,6 +28,10 @@ a:visited {
 	color: black;
 }
 
+#navigation a {
+	color: black;
+}
+
 #currentPage {
 	text-decoration: underline;
 }

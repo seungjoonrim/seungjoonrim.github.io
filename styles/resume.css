@@ -34,6 +34,10 @@ a:visited {
 	color: black;
 }
 
+#navigation a {
+	color: black;
+}
+
 nav p {
 	display: inline;
 	margin-right: 10px;
